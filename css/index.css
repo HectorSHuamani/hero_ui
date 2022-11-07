@@ -90,6 +90,8 @@ button {
   color: var(--white);
   z-index: 2;
   position: relative;
+  padding-block: 16px;
+  padding-inline: 32px;
 }
 
 .hero::before {
