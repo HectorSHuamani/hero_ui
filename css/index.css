@@ -1,10 +1,10 @@
 
 :root { 
 --white: #ffffff; 
---black-1: #202020; 
+--black-1: #181818; 
 --primary: #1b90fc; 
 --grey: #929292; 
---headline1: 700 2.5rem/normal Roboto Condensed; 
+--headline1: @import url(//db.onlinewebfonts.com/c/0d5f8cc3c1312e1f7c94b4ccf48733c0?family=Netflix+Sans+Icon);
 --subtitle1: 700 1.625rem/1.5rem Roboto Condensed; 
 --button: 700 0.875rem/1rem Roboto; 
 --headline2: 700 1.5rem/normal Roboto Condensed; 
@@ -33,7 +33,7 @@ h2{
 }
 
 h3{
-  font: var(--button);
+  font: var(--headline1);
 }
 
 .wrapper {
@@ -55,6 +55,13 @@ p, h1 {
   /* padding: 20px; */
 }
 
+.hero-content p {
+  font-family: var(--headline1);
+  font-size: 24px;
+  padding-block: 16px;
+  /* padding-inline: 32px; */
+}
+
 .hero p {
   font-size: 16px;
   line-height: 24px;
@@ -66,7 +73,7 @@ img {
 }
 
 button {
-  background-color: #1b90fc;
+  background-color: #D81F26;
   color: var(--white);
   padding-block: 16px;
   padding-inline: 32px;
@@ -83,6 +90,11 @@ button {
  block-size: 768px;
  align-items: center;
  /* background-color: darkcyan; */
+}
+
+.title-info-metadata-wrapper {
+  color: var(--grey);
+  padding-block: 16px;
 }
 
 .card {
@@ -109,7 +121,7 @@ button {
   
   /* border: 1px solid rebeccapurple;   */
   background-color: var(--black-1);
-  background-image: url("../images/img.png");
+  background-image: url("../images/cabinet-of-curiosities-366x768-compress.jpg");
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
